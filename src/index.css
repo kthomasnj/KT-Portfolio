@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: lightgray;
+}
+
+nav button {
+  border: none;
+  background: none;
+  margin: 5px;
+}
+
+#about, #portfolio {
+  margin: 5vh auto;
+  width: 90%;
+  text-align: center;
+}
+
+#about img {
+  float: left;
+  margin-right: 10px;
+}
+
+#applications {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.application {
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 45%;
+  padding: 10px;
+}
+
+.application a {
+  margin: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 8px;
+  background: lightgray;
+  text-decoration: none;
+}
+
+.application:first-child {
+  width: 94%;
+}
+
