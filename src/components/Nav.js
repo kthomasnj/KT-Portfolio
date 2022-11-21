@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <Router>
       <nav>
-        <NavLink to="./">Keith S. Thomas</NavLink>
+        <NavLink className="navbar-brand" to="./">Keith S. Thomas</NavLink>
         <div>
           <NavLink to="" className={({ isActive }) => isActive ? activeClassName : undefined}>About</NavLink>
           <NavLink to="portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>Portfolio</NavLink>

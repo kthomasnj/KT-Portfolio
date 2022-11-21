@@ -20,10 +20,11 @@ nav {
   background: lightgray;
 }
 
-nav button {
+nav a {
   border: none;
   background: none;
   margin: 5px;
+  text-decoration: None;
 }
 
 #about, #portfolio {
