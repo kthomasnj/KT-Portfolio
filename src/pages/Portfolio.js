@@ -1,6 +1,7 @@
+import React from 'react';
 import applications from './applications.json';
 
-const Portfolio = () => {
+function Portfolio() {
     return (
         <div id='portfolio'>
             <h1>Portfolio</h1>

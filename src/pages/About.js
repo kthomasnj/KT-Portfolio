@@ -1,10 +1,9 @@
 import React from 'react';
-import Header from "../components/Header";
+
 
 function About() {
         return(
             <div id="about">
-                <Header />
                 <img src="https://picsum.photos/200/200" alt="me" />
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis et, asperiores ut dolor maiores, blanditiis sint voluptatem excepturi possimus accusamus quas temporibus voluptatibus aliquid?</p>

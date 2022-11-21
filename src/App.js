@@ -1,8 +1,11 @@
 import React from 'react';
-import About from './pages/About';
+import './App.css';
+import Header from './components/Header';
 
-function App() {
-  return <About />;
+function App() {  
+  return( 
+    <Header />
+  )
 }
 
 export default App;
