@@ -2,7 +2,7 @@
 export default function Nav({setPage}) {
     return (
       <nav>
-        <h1>Keith Thomas</h1>
+        <button onClick={()=>setPage('about')}>Keith S. Thomas</button>
         <div>
           <button onClick={()=>setPage('portfolio')}>Portfolio</button>
           <button onClick={()=>setPage('contact')}>Contact</button>
