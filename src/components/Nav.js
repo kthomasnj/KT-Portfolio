@@ -12,7 +12,7 @@ export default function Nav() {
       <nav>
         <NavLink className="navbar-brand" to="/Keith-Thomas-DEV-Portfolio">Keith S. Thomas</NavLink>
         <div>
-          <NavLink to="" className={({ isActive }) => isActive ? activeClassName : undefined}>About</NavLink>
+          <NavLink to="/Keith-Thomas-DEV-Portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>About</NavLink>
           <NavLink to="portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>Portfolio</NavLink>
           <NavLink to="contact" className={({ isActive }) => isActive ? activeClassName : undefined}>Contact</NavLink>
           <NavLink to="resume" className={({ isActive }) => isActive ? activeClassName : undefined}>Resume</NavLink>
