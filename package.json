@@ -1,7 +1,7 @@
 {
   "name": "keith-thomas-dev-portfolio",
   "version": "0.1.0",
-  "homepage": "https://kthomasnj.github.io/Keith-Thomas-DEV-Portfolio/",
+  "homepage": "https://kthomasnj.github.io/Keith-Thomas-DEV-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
