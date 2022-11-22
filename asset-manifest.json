@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Keith-Thomas-DEV-Portfolio/static/css/main.ffe82029.css",
+    "main.js": "/Keith-Thomas-DEV-Portfolio/static/js/main.78ba3cc7.js",
+    "static/js/787.87b50dcc.chunk.js": "/Keith-Thomas-DEV-Portfolio/static/js/787.87b50dcc.chunk.js",
+    "index.html": "/Keith-Thomas-DEV-Portfolio/index.html",
+    "main.ffe82029.css.map": "/Keith-Thomas-DEV-Portfolio/static/css/main.ffe82029.css.map",
+    "main.78ba3cc7.js.map": "/Keith-Thomas-DEV-Portfolio/static/js/main.78ba3cc7.js.map",
+    "787.87b50dcc.chunk.js.map": "/Keith-Thomas-DEV-Portfolio/static/js/787.87b50dcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe82029.css",
+    "static/js/main.78ba3cc7.js"
+  ]
+}
