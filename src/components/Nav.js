@@ -10,19 +10,19 @@ export default function Nav() {
   return (
     <Router>
       <nav>
-        <NavLink className="navbar-brand" to="/Keith-Thomas-DEV-Portfolio">Keith S. Thomas</NavLink>
+        <NavLink className="navbar-brand" to="/KT-Portfolio">Keith S. Thomas</NavLink>
         <div>
-          <NavLink to="/Keith-Thomas-DEV-Portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>About</NavLink>
-          <NavLink to="portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>Portfolio</NavLink>
-          <NavLink to="contact" className={({ isActive }) => isActive ? activeClassName : undefined}>Contact</NavLink>
-          <NavLink to="resume" className={({ isActive }) => isActive ? activeClassName : undefined}>Resume</NavLink>
+          <NavLink to="/KT-Portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>About</NavLink>
+          <NavLink to="/KT-Portfolio/portfolio" className={({ isActive }) => isActive ? activeClassName : undefined}>Portfolio</NavLink>
+          <NavLink to="/KT-Portfolio/contact" className={({ isActive }) => isActive ? activeClassName : undefined}>Contact</NavLink>
+          <NavLink to="/KT-Portfolio/resume" className={({ isActive }) => isActive ? activeClassName : undefined}>Resume</NavLink>
         </div>
       </nav>
       <Routes>
-        <Route path="/Keith-Thomas-DEV-Portfolio" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/KT-Portfolio" element={<About />} />
+        <Route path="/KT-Portfolio/portfolio" element={<Portfolio />} />
+        <Route path="/KT-Portfolio/contact" element={<Contact />} />
+        <Route path="/KT-Portfolio/resume" element={<Resume />} />
       </Routes>
     </Router>
   )
